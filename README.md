@@ -2,8 +2,8 @@
 The source code for InfoVGAE-SL model submitted for TKDE. We will publish this code and datasets after acceptance.
 
 ## Dataset
-We uploaded the pre-processed datasets with smaller size, due to the file size limits of supplementary material. 
-The datasets are located in `dataset/election`, `dataset/eurovision`, `dataset/war`, and `dataset/bill`. 
+We uploaded the pre-processed datasets with smaller size, due to the file size limits of supplementary material.
+The datasets are located in `dataset/election`, `dataset/eurovision`, `dataset/war`, and `dataset/bill`.
 Please run the following to unzip the datasets:
 
 ```
@@ -17,7 +17,7 @@ cd ../election
 unzip data.csv.zip
 cd ../war
 unzip data.csv.zip
-cd ../..  
+cd ../..
 ```
 
 ## Training
@@ -28,19 +28,19 @@ To run InfoVGAE-SL on Eurovision dataset:
 python3 main.py --config_name InfoVGAE-SL_eurovision_3D
 ```
 
-To run InfoVGAE on Election dataset:
+To run InfoVGAE-SL on Election dataset:
 
 ```
 python3 main.py --config_name InfoVGAE-SL_election_3D
 ```
 
-To run InfoVGAE on Russia Ukraine War 2022 dataset:
+To run InfoVGAE-SL on Russia Ukraine War 2022 dataset:
 ```
 python3 main.py --config_name InfoVGAE-SL_war_3D
 ```
 
 
-To run InfoVGAE on Voteview 105th Congress dataset:
+To run InfoVGAE-SL on Voteview 105th Congress dataset:
 ```
 python3 main.py --config_name InfoVGAE-SL_bill_3D
 ```
@@ -69,7 +69,7 @@ python3 main.py --config_name InfoVGAE-SL_bill_3D
 
 `--uthreshold`: user count threshold to filter not popular users.
 
-> For InfoVGAE model
+> For InfoVGAE-SL model
 
 `--hidden1_dim`: the latent space dimension of first layer
 
