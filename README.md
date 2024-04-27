@@ -1,5 +1,5 @@
 # InfoVGAE-SL
-The source code for InfoVGAE-SL model submitted for TKDE. We will publish this code and datasets after acceptance.
+The source code for InfoVGAE-SL model submitted for TKDD. We will publish this code and datasets after acceptance.
 
 ## Dataset
 We uploaded the pre-processed datasets with smaller size, due to the file size limits of supplementary material.
